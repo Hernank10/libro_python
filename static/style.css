@@ -1,0 +1,36 @@
+/* Estilos Globales - C.I.P.A.I. Floridablanca */
+:root {
+    --azul-cipai: #335d97;
+    --amarillo-cipai: #ffc107;
+    --gris-fondo: #f8f9fa;
+    --texto-oscuro: #212529;
+    --basico-color: #d1e7dd;
+    --intermedio-color: #fff3cd;
+    --avanzado-color: #f8d7da;
+}
+
+body {
+    background-color: var(--gris-fondo);
+    color: var(--texto-oscuro);
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+.header-cipai {
+    background-color: var(--azul-cipai);
+    color: white;
+    border-bottom: 5px solid var(--amarillo-cipai);
+    padding: 2rem;
+    text-align: center;
+}
+
+.badge-nivel {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.nivel-basico { background-color: var(--basico-color); color: #0f5132; }
+.nivel-intermedio { background-color: var(--intermedio-color); color: #664d03; }
+.nivel-avanzado { background-color: var(--avanzado-color); color: #842029; }
